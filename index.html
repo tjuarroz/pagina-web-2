@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-     <!--Queria aclarar que la pagina esta subida a netlify, la URL es la siguiente:
-    
-    https://tomasjuarroz-cv.netlify.app/
-
-    -->
+    <!-- Sitio publicado en Netlify: https://tomasjuarroz-cv.netlify.app/ -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tomas Juarroz CV</title>
+    <title>Tomás Juarroz | CV</title>
+    <meta name="description" content="Tomás Juarroz — Coordinador de Operaciones. Tecnología y datos aplicados a servicios de energía.">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -18,19 +15,20 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link 
-        href="https://fonts.googleapis.com/css2?family=Genos:wght@100&family=Source+Code+Pro:wght@400;500&display=swap" 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Genos:wght@100&family=Source+Code+Pro:wght@400;500&display=swap"
         rel="stylesheet"
     />
-    <link 
-        rel="stylesheet" }
+    <link
+        rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
     />
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/navbar.css"> 
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/profile.css">
-    <link rel="stylesheet" href="css/skills.css"> 
+    <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/experiences.css">
+    <link rel="stylesheet" href="css/education.css">
     <link rel="stylesheet" href="css/contact.css">
     <script defer src="js/app.js"></script>
 </head>
@@ -38,49 +36,50 @@
     <header class="topheader">
         <nav class="topnav">
             <a href="#" class="logo">
-                <img height="50" 
-                     width="50" 
-                     src="imagenes/img-link.jpg" 
-                     alt="Imagen Tomas Juarroz"
+                <img height="50"
+                     width="50"
+                     src="imagenes/img-link.jpg"
+                     alt="Imagen Tomás Juarroz"
                 />
                 <div>
-                    Tomas Juarroz <br />
+                    Tomás Juarroz <br />
                     { tech }
                 </div>
             </a>
                 <button class="open-menu" aria-label="Abrir menu">
-                <img src="imagenes/menu-hamburguesa.svg" alt="abrir menu">  
+                <img src="imagenes/menu-hamburguesa.svg" alt="abrir menu">
                 </button>
             <ul class="menu">
-                <button class="close-menu" aria-label="Cerrar menu">  
+                <button class="close-menu" aria-label="Cerrar menu">
                 <img src="imagenes/close-icon.svg" alt="cerrar menu">
                 </button>
                 <li><a href="#profile">Perfil</a></li>
                 <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#education">Formación</a></li>
                 <li><a href="#skills">Habilidades</a></li>
-                <li><a href="#contact">Contacto</a></li> 
+                <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
-   
+
     </header>
 <div class="horizontal-padding vertical-padding">
     <section class="profile" id="profile">
         <div class="profile-info">
-            <h1 class="profile-title">Hola, soy Tomas Juarroz</h1>
+            <h1 class="profile-title">Hola, soy Tomás Juarroz</h1>
             <p class="profile-details">
-                Tengo un perfil técnico y de negocios con experiencia en coordinar equipos de trabajo para cumplir con los SLA de grandes clientes.
-                Con liderazgo, disciplinado, comunicativo, orientado a objetivos y pensamiento positivo.
-                Soy Técnico Superior en Teleinformática con mas de 10 años de experiencia en soporte técnico informático.
+                Coordinador General de Servicios: lidero 4 áreas y 163 personas en servicios para distribuidoras de gas.
+                Desarrollo herramientas de datos, automatización e IA aplicadas a la operación.
+                Lic. en Tecnologías Digitales (UNICABA) y estudiante de Ciencia de Datos.
             </p>
-            <a class="profile-btn" href="/Tomas Juarroz CV 2021 (1).pdf" dowload>
+            <a class="profile-btn" href="/Tomas_Juarroz_CV_2026.pdf" download>
                 Descargar CV</a>
         </div>
         <span class="profile-img-section">
-            <img class="profile-img" 
-                 src="imagenes/img-link2.png" 
-                 alt="Supervisor">
+            <img class="profile-img"
+                 src="imagenes/img-link2.png"
+                 alt="Tomás Juarroz">
          <div class="profile-img-line"></div>
-        </span> 
+        </span>
     </section>
 </div>
 
@@ -89,49 +88,94 @@
 <div class="experiences-body">
     <h2 class="experiences-title">Experiencia</h2>
     <div class="experiences-grid">
+
+        <!-- 1 · derecha -->
         <div class="empty"></div>
         <div class="line"></div>
         <div class="experience">
-            <div class="experience-date">2019-2023</div>
+            <div class="experience-date">2021 - Actualidad</div>
+            <div class="experience-company">BAT S.R.L.</div>
+            <div class="experience-position">Coordinador General de Servicios / Jefe de Operaciones</div>
+            <div class="experience-description">
+                <p>Coordino 4 áreas de servicio para distribuidoras de gas, con 11 encargados y 163 personas:
+                lectura de medidores para Metrogas (110 personas), corte, reapertura, retiro y verificación de medidores
+                para Camuzzi (14), distribución de avisos de deuda para Metrogas (21) y recambio de medidores
+                para Ecogas en Mendoza (18).</p>
+                <p>Desarrollé herramientas propias en Python: una PWA para la rendición de lecturas con panel web,
+                métricas automatizadas de certificación de rutas y actividades, un lector OCR offline de series
+                de medidores y una plataforma de gestión de reclamos de clientes.</p>
+            </div>
+        </div>
+
+        <!-- 2 · izquierda -->
+        <div class="experience experience_left">
+            <div class="experience-date">2013 - Actualidad</div>
+            <div class="experience-company">DeepElectric</div>
+            <div class="experience-position">Fundador</div>
+            <div class="experience-description">
+                <p>Emprendimiento propio de seguridad electrónica: diseño, instalación y puesta en marcha
+                de sistemas CCTV Dahua y alarmas DSC y Marshall, con soporte remoto posterior.</p>
+                <p>Actualmente desarrollo una plataforma de monitoreo con IA para un centro de monitoreo
+                de unas 320 cámaras: control de apertura y cierre de locales, detección de situaciones de riesgo
+                y alertas automáticas por Telegram.</p>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="empty"></div>
+
+        <!-- 3 · derecha -->
+        <div class="empty"></div>
+        <div class="line"></div>
+        <div class="experience">
+            <div class="experience-date">2019 - 2021</div>
             <div class="experience-company">Grupo Tech</div>
-            <div class="experience-position">Supervisor de servicio técnico</div>
+            <div class="experience-position">Supervisor de Soporte Técnico</div>
             <div class="experience-description">
-                Coordinar la mesa de ayuda junto con el soporte técnico para cumplir los acuerdos
-                de nivel de servicio pactados con nuestros clientes. Utilizar las herramientas de
-                gestión de solicitudes (Flowpro y Microsoft Dinamics CRM) para planificar y obtener
-                indicadores de las asistencias realizadas. Administrar los depósitos de cada almacén
-                ya sean de técnicos o de bases operativas (CAS). Promover la mejora continua en los 
-                procesos de las áreas involucradas en la operación.
+                A cargo de 10 técnicos on-site, 3 operadores de mesa de ayuda, 2 técnicos de laboratorio
+                y 9 bases operativas en el interior del país. Cumplimiento de SLA, planificación e indicadores
+                con Flowpro y Microsoft Dynamics CRM, administración de depósitos y mejora continua de procesos.
             </div>
         </div>
-            <div class="experience experience_left">
-            <div class="empty"></div>
-            <div class="experience-date">2017-2019</div>
+
+        <!-- 4 · izquierda -->
+        <div class="experience experience_left">
+            <div class="experience-date">2016 - 2018</div>
             <div class="experience-company">PC Arts Argentina</div>
-            <div class="experience-position">Supervisor de reproceso canal Retail y laboratorio PCB.</div>
+            <div class="experience-position">Supervisor de Reproceso Canal Retail y Laboratorio PCB</div>
             <div class="experience-description">
-                Coordinar los equipos de trabajo, presentación de reportes y métricas de las áreas, cumplimiento
-                del SLA con los clientes (Retail), administración de depósitos, inventario, evaluar y aplicar
-                mejoras continuas en los procesos, mantener canal de comunicación con los clientes (status semanales),
-                coordinar el circuito de presupuestos con el área de facturación, cumplir con los objetivos
-                determinados por la gerencia. 
+                A cargo de 2 coordinadores, 11 técnicos y 2 administrativos. Reportes y métricas del sector,
+                cumplimiento del SLA con clientes retail, inventario, depósitos y circuito de presupuestos
+                con facturación.
             </div>
         </div>
-             <div class="line"></div>
-             <div class="empty"></div>
-             <div class="empty"></div>
-             <div class="line"></div>
-             <div class="experience">
-            
-            <div class="experience-date">2013-2017</div>
+        <div class="line"></div>
+        <div class="empty"></div>
+
+        <!-- 5 · derecha -->
+        <div class="empty"></div>
+        <div class="line"></div>
+        <div class="experience">
+            <div class="experience-date">2013 - 2016</div>
             <div class="experience-company">PC Arts Argentina</div>
-            <div class="experience-position">Supervisor de reproceso canal Retail</div>
+            <div class="experience-position">Supervisor de Reprocesos</div>
             <div class="experience-description">
-                Coordinar el equipo de trabajo, presentación de reportes de estado del sector, cumplimiento del SLA
-                con los clientes, pedido de componentes, inventario, administración de depósitos, evaluar y aplicar
-                mejoras continuas en el proceso.
+                Equipo de 9 personas. Reportes de estado del sector, cumplimiento del SLA con los clientes,
+                pedido de componentes, inventario, administración de depósitos y mejora continua.
             </div>
         </div>
+
+        <!-- 6 · izquierda -->
+        <div class="experience experience_left">
+            <div class="experience-date">2009 - 2013</div>
+            <div class="experience-company">PC Arts Argentina</div>
+            <div class="experience-position">Técnico de Notebooks Sr.</div>
+            <div class="experience-description">
+                Diagnóstico y reparación de notebooks, desktops, AIO, tablets y monitores
+                según los procesos y normas de calidad de la empresa.
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="empty"></div>
 
     </div>
 </div>
@@ -139,16 +183,49 @@
 </section>
 
 <div class="horizontal-padding vertical-padding">
+    <section class="education" id="education">
+        <h2 class="education-title">Formación</h2>
+        <ul class="education-list">
+            <li class="education-item">
+                <span class="education-date">2026</span>
+                <span class="education-degree">Licenciatura en Tecnologías Digitales</span>
+                <span class="education-school">Universidad de la Ciudad de Buenos Aires (UNICABA)</span>
+            </li>
+            <li class="education-item">
+                <span class="education-date">En curso</span>
+                <span class="education-degree">Licenciatura en Ciencia de Datos</span>
+                <span class="education-school">Universidad de la Ciudad de Buenos Aires (UNICABA)</span>
+            </li>
+            <li class="education-item">
+                <span class="education-date">2024</span>
+                <span class="education-degree">Técnico Superior en Teleinformática</span>
+                <span class="education-school">Instituto de Formación Técnica Superior N° 24 · Validez nacional</span>
+            </li>
+            <li class="education-item">
+                <span class="education-date">2008 - 2014</span>
+                <span class="education-degree">Cursos: CCNA 1 a 4, Fundamentos de la Programación, PHP y MySQL</span>
+                <span class="education-school">Universidad Tecnológica Nacional</span>
+            </li>
+        </ul>
+    </section>
+</div>
+
+<div class="horizontal-padding vertical-padding">
     <section class="skills" id="skills">
         <h2 class="skills-title">Habilidades</h2>
         <ul class="skills-list">
-            <li class="skills-skill">Excel</li>
-            <li class="skills-skill">Team Leadership</li>
-            <li class="skills-skill">Management</li>
-            <li class="skills-skill">Team Building</li>
-            <li class="skills-skill">Customer Service</li>
-            <li class="skills-skill">CCNA</li>
-            <li class="skills-skill">Cryptocurrency's</li>
+            <li class="skills-skill">Gestión de operaciones</li>
+            <li class="skills-skill">Liderazgo de equipos</li>
+            <li class="skills-skill">Python</li>
+            <li class="skills-skill">Análisis de datos</li>
+            <li class="skills-skill">Dashboards y métricas</li>
+            <li class="skills-skill">Excel avanzado</li>
+            <li class="skills-skill">SQL</li>
+            <li class="skills-skill">Java</li>
+            <li class="skills-skill">OCR y visión por computadora</li>
+            <li class="skills-skill">SAP S/4HANA</li>
+            <li class="skills-skill">Redes (CCNA)</li>
+            <li class="skills-skill">CCTV Dahua</li>
         </ul>
     </section>
   </div>
@@ -158,7 +235,7 @@
      <h2 class="contact-title">Contacto</h2>
       <div class="contact-details">
         <div class="contact-details-group">
-            <p class="contact-label">Direccion:</p>
+            <p class="contact-label">Dirección:</p>
             <p class="contacto-text">Quilmes, Buenos Aires</p>
         </div>
         <div class="contact-details-group">
@@ -167,7 +244,7 @@
         </div>
         <div class="contact-details-group">
             <p class="contacto-text">
-                Deje su mensaje y con gusto le respondere 
+                Dejame tu mensaje y te respondo a la brevedad.
             </p>
         </div>
      </div>
@@ -177,11 +254,11 @@
             <input type="text" name="name" id="name"/>
         </div>
         <div class="contact-form-group">
-            <label for="name">Email</label>
-            <input type="text" name="email" id="email"/>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"/>
         </div>
         <div class="contact-form-group">
-            <label for="name">Mensaje</label>
+            <label for="message">Mensaje</label>
             <textarea name="message" id="message" rows="6"></textarea>
         </div>
 
@@ -192,19 +269,16 @@
             <li class="social-item">
                 <a href="https://twitter.com/TJuarroz">
                     <img src="imagenes/social/twitter.png" alt="twitter profile">
-
                 </a>
             </li>
             <li class="social-item">
                 <a href="https://www.linkedin.com/in/tomas-juarroz-a64558108/">
                     <img src="imagenes/social/linkedin.png" alt="linkedin profile">
-
                 </a>
             </li>
             <li class="social-item">
                 <a href="https://www.instagram.com/tjuarroz1986_/">
                     <img src="imagenes/social/instagram.png" alt="instagram profile">
-
                 </a>
             </li>
         </ul>
